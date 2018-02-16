@@ -24,8 +24,7 @@ export class PopoverPage {
   }
 
   presentPopover(ev) {
-    let popover = this.popoverCtrl.create(PopoverComponent, {
-    });
+    let popover = this.popoverCtrl.create(PopoverComponent, { });
     popover.present({
       ev: ev
     });
